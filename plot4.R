@@ -1,5 +1,5 @@
 #setwd("K:/010 ZELFSTUDIE/Coursera/004 Exploratory Data Analysis/Project1")
-setwd("D:/GitHub_SourceTree/ExploratoryDataAnalysis_Project1")
+#setwd("D:/GitHub_SourceTree/ExploratoryDataAnalysis_Project1")
 # read the data
 filename <- "./data/household_power_consumption.txt"
 data2big <- read.table(filename,
@@ -47,5 +47,5 @@ with (feb ,
  plot ( timestamp, Global_reactive_power , type='l' , xlab='datetime')
    }
 )
-dev.copy(png, file="plot4.png", height=600, width=800)
+dev.copy(png, file="plot4.png", height=480, width=480)
 dev.off()
